@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SensorFusion-ObjC_Example', :exclusive => true do
+  pod 'SensorFusion-ObjC', :path => '../'
+end
+
+target 'SensorFusion-ObjC_Tests', :exclusive => true do
+  pod 'SensorFusion-ObjC', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

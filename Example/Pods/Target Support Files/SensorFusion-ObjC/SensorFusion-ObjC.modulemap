@@ -1,0 +1,6 @@
+framework module SensorFusion_ObjC {
+  umbrella header "SensorFusion-ObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SensorFusion_ObjC_Example {
+  umbrella header "Pods-SensorFusion-ObjC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
